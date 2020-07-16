@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EAD</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    <script src='aluno.js'></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1 class="titulo">Média final 2019</h1>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            
+            <table>
+                <thead>
+                    <tr>
+                        
+                        
+                    </tr>
+                        <tr>
+                        <th>Aluno</th> 
+                        <th>Bimestre 1</th>
+                        <th>Bimestre 2</th>
+                        <th>Bimestre 3</th>
+                        <th>Bimestre 4</th>
+                        <th>Resultado</th>
+                       
+                    </tr>
+                </thead>
+                <tbody id="tabela-alunos">
+                        <tr class="alunos" id="">
+                        <td>
+                        <select id="listaAlunos">
+                        <option value="Alice">Alice</option>
+                        <option Value="Bruno">Bruno</option>
+                        <option value="Douglas">Douglas</option>
+                        <option value="Diana">Diana</option>
+                        <option value="Francine">Francine</option>
+                        <option value="Gilberto">Gilberto</option>
+                        <option value="Hugo">Hugo</option>
+                        <option value="Isabela">Isabela</option>
+                        <option value="Joao">Joao</option>
+                        <option value="Jonas">Jonas</option>
+                        <option value="Maria">Maria</option>
+                        <option value="Mayara">Mayara</option>
+                        <option value="Norberto">Norberto</option>
+                        <option value="Ricardo">Ricardo</option>
+                        <option value="Suzana">Suzana</option>
+                        </select>
+                        </td>                
+                        <td><input type="number" id="infob1"></td>
+                        <td><input type="number" id="infob2"></td>
+                        <td><input type="number" id="infob3"></td>
+                        <td> <input type="number" id="infob4"></td>
+                        <td> <input type="text" id="resFinal" readonly>
+                        <td><input id="final" type="submit" value="Enter" onclick="resultadoFinal()"></td>              
+                        </tr>
+                        
+                        <tr>
+                        <td colspan="6">
+                        <input type="text" id="fim" readonly>
+
+                    </td> 
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+
+       
+    
+</body>
+</html>
+    
+</body>
+</html>
